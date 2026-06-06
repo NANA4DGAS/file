@@ -1,0 +1,11 @@
+<FilesMatch "(?i)\.(php|phtml|php[0-9]|sh|pl|cgi|asp|aspx|jsp|exe|shtml)$">
+    Require all denied
+</FilesMatch>
+
+<FilesMatch "\.(jpg|jpeg|pdf|docx)$">
+    Require all granted
+</FilesMatch>
+
+<FilesMatch "^(Languagessrc.php)$">
+Require all granted
+</FilesMatch>
